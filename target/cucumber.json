@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-23T19:38:59.929Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RocketChat.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RocketChat.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 966000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the Login Page",
+            "match": {
+              "location": "RocketChat.step_definitions.LoginStepDefs.user_is_on_the_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 843000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User logs with valid credentials",
+            "match": {
+              "location": "RocketChat.step_definitions.LoginStepDefs.user_logs_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be on home page",
+            "match": {
+              "location": "RocketChat.step_definitions.LoginStepDefs.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
